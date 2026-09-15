@@ -43,8 +43,56 @@ public class a {
         // int elf = 23_12_235;
         // System.out.println(elf);
 
-         
+        // // Formatting
+        // float d = 0.245674897383658975392759473875759330f;
+        // float f = 0.23f;
+        // System.out.printf("%.20f%n", d);
+        // System.out.printf("%.20f%n", f);
 
+        // // Negative Number Representation
+        // int negativeFive = -5;
+        //     // This will print the full 32-bit two's complement representation
+        // System.out.println(Integer.toBinaryString(negativeFive)); 
+        //     // Output: 11111111111111111111111111111011
+
+        // // Rule for implicit type conversion - Destination datatype should be
+        // // wider than source data type. 
+        // // Widening Hierarchy : byte ──> short ──> int ──> long ──> float ──> double
+        // //                                ▲
+        // //                                │
+        // //                               char
+        
+        // int intVal = 100;
+        // double doubleVal = intVal; 
+        // System.out.println("Integer value: " + intVal);  
+        // System.out.println("Double value: " + doubleVal);
+
+        // // Explicit Conversion (Using Typecasting)
+        // int a = 300;
+        // byte b = (byte) a;
+        // System.out.println(b); // Takes all binary bits that can fit in the
+        // //  given size and truncates the remaining ones
+
+        // char c = 'a';
+        // int d = c;
+        // System.out.println(d); // Returns unicode of 'a'
+
+        // float f = 12.459f;
+        // int i = (int) f;
+        // System.out.println(i);
+
+        // Can't convert from bool to any other type
+
+        // Type promotion Rules : 
+        // byte, short and char values are promoted to int
+        // if one operand is long, the whole expression will become long
+        // if one operand if float entire expression will become float
+        // if one operand is double exitre expression will become double
+        // byte a = 50;
+        // byte b = 40;
+        // byte c = 100;
+        // int i = (a * b) / c;
+        // System.out.println(i);
     }
     
 }
