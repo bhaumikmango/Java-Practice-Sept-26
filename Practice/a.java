@@ -2,7 +2,48 @@ public class a {
 
     public static void main(String [] args){
 
-        System.out.println("Hello World");
+        // // Hello World
+        // System.out.println("Hello World");
+
+        // // Integers
+        // byte b = 5;
+        // short s = 10;
+        // int i = 2400;
+        // long l = 2045986;
+        // System.out.println(b + "," + s + "," + i + "," + l);
+
+        // // Real Numbers
+        // float f = 124.33f; // Single Precision
+        // double d = 225.3393; // Double Precision
+        // System.out.println(f + "," + d);
+
+        // // Characters
+        // char c = 'a';
+        // System.out.println(c);
+
+        // // Boolean
+        // boolean bool = false;
+        // System.out.println(bool);
+
+        // // How to store binary or octal or hexadecimal numbers in integers
+        // // Keywords Binary - 0b, Octal - 0, Hexadecimal - 0X
+        // byte bin_a = 0b101;    
+        // byte oct_a = 05;
+        // byte hex_a = 0X1f;
+        // System.out.println(bin_a);
+        // System.out.println(oct_a);
+        // System.out.println(hex_a);
+
+        // // Scientific Notation using double
+        // double scientific = 6.022e23; // 6.022 * 10 ^ 23
+        // System.out.println(scientific);
+
+        // // Compiler ignores underscores in values until and unless is is just before e in scientific 
+        // // format or it is after e or . in scientific or decimal formats
+        // int elf = 23_12_235;
+        // System.out.println(elf);
+
+         
 
     }
     
