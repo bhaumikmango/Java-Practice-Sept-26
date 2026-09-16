@@ -52,35 +52,57 @@ public class b {
         // System.out.println(e);
         // System.out.println(f);
 
-        // Bitwise Operators
-        byte a = 2;
-        byte b = 3;
+        // // Bitwise Operators
+        // byte a = 2;
+        // byte b = 3;
 
-        // & bitwise and operator
-        int c = a & b;
-        System.out.println(c);
+        // // & bitwise and operator
+        // int c = a & b;
+        // System.out.println(c);
 
-        // | bitwise or operator
-        int d = a | b;
-        System.out.println(d);
+        // // | bitwise or operator
+        // int d = a | b;
+        // System.out.println(d);
 
-        // ^ bitwise exclusive or operator
-        int e = a ^ b;
-        System.out.println(e);
+        // // ^ bitwise exclusive or operator
+        // int e = a ^ b;
+        // System.out.println(e);
 
-        // ~ bitwise not operator
-        int f = ~33;
-        System.out.println(f);
+        // // ~ bitwise not operator
+        // int f = ~33;
+        // System.out.println(f);
 
-        // << left shift operator
-        int g = 8;
-        g = g << 1;
-        System.out.println(g);
+        // // << left shift operator
+        // int g = 8;
+        // g = g << 1;
+        // System.out.println(g);
 
-        // >> right shift operator
-        int h = 8;
-        h = h >> 1;
-        System.out.println(h);
+        // // >> right shift operator
+        // int h = 8;
+        // h = h >> 1;
+        // System.out.println(h);
 
+        // // Logical Operators (Similar to bitwise)
+        // int a = 3;
+        // int b = 5;
+        // int c = 2;
+        // boolean d = (a < b) || (a < c);
+        // boolean e = (a < b) && (a < c);
+        // System.out.println(d);
+        // System.out.println(e);
+
+        // // Short Circuit (If one of the given inputs will already 
+        // // manipulate the output then we don't need to check both of them)
+        // // If you don't want short circuit
+        // boolean f = (a < b) & (a < c);
+        // System.out.println(f);
+
+        // // Assignment Operator
+        // int g = 33; // = is assignment, == is relational
+
+        // Operator Precedence (Lowest to Highest)
+        // = then -> then ?: then || then && then | then ^ then & 
+        // then == then > then >> then + then * then ++(prefix) then ++(postfix)
+        // https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fap1q803hmw8r5onm8p4o.gif
     }
 }
