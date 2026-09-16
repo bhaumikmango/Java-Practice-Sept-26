@@ -38,19 +38,49 @@ public class b {
         // System.out.println(i);
         
 
-        // Relational Operators
-        int a = 5;
-        int b = 10;
+        // // Relational Operators
+        // int a = 5;
+        // int b = 10;
 
-        boolean c = (a == b);
-        boolean d = (a != b);
-        System.out.println(c);
-        System.out.println(d);
+        // boolean c = (a == b);
+        // boolean d = (a != b);
+        // System.out.println(c);
+        // System.out.println(d);
         
-        boolean e = (a < b);
-        boolean f = (a > b);
+        // boolean e = (a < b);
+        // boolean f = (a > b);
+        // System.out.println(e);
+        // System.out.println(f);
+
+        // Bitwise Operators
+        byte a = 2;
+        byte b = 3;
+
+        // & bitwise and operator
+        int c = a & b;
+        System.out.println(c);
+
+        // | bitwise or operator
+        int d = a | b;
+        System.out.println(d);
+
+        // ^ bitwise exclusive or operator
+        int e = a ^ b;
         System.out.println(e);
+
+        // ~ bitwise not operator
+        int f = ~33;
         System.out.println(f);
+
+        // << left shift operator
+        int g = 8;
+        g = g << 1;
+        System.out.println(g);
+
+        // >> right shift operator
+        int h = 8;
+        h = h >> 1;
+        System.out.println(h);
 
     }
 }
