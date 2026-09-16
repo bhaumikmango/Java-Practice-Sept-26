@@ -25,18 +25,32 @@ public class b {
         // g ++;
         // System.out.println(g);
 
-        // Pre increment/decrement and post increment/decrement
-        int i = 7;
-        i ++; //Postfix
-        ++ i; //Prefix
-        System.out.println(i);
-        int j = ++i; // j = i + 1
-        System.out.println(j);
-        System.out.println(i);
-        int k = i++; // k = i; i = i + 1
-        System.out.println(k);
-        System.out.println(i);
+        // // Pre increment/decrement and post increment/decrement
+        // int i = 7;
+        // i ++; //Postfix
+        // ++ i; //Prefix
+        // System.out.println(i);
+        // int j = ++i; // j = i + 1
+        // System.out.println(j);
+        // System.out.println(i);
+        // int k = i++; // k = i; i = i + 1
+        // System.out.println(k);
+        // System.out.println(i);
         
+
+        // Relational Operators
+        int a = 5;
+        int b = 10;
+
+        boolean c = (a == b);
+        boolean d = (a != b);
+        System.out.println(c);
+        System.out.println(d);
+        
+        boolean e = (a < b);
+        boolean f = (a > b);
+        System.out.println(e);
+        System.out.println(f);
 
     }
 }
