@@ -42,32 +42,32 @@ public class e {
         //     System.out.println("-------------");            
         // }
         
-        // 3D Array
-        int [][][] arr = new int[3][3][3]; // Each element is an array in itself
-        // Every element of each sub array is an int(here)
+        // // 3D Array
+        // int [][][] arr = new int[3][3][3]; // Each element is an array in itself
+        // // Every element of each sub array is an int(here)
 
-        int a = 100;
+        // int a = 100;
 
-        for (int i = 0; i < arr.length; i++) { // Iterates through layers
-            System.out.println("Layer " + i + ":");
-            for (int j = 0; j < arr[i].length; j++) { // Iterates through rows
-                for (int k = 0; k < arr[i][j].length; k++) { // Iterates through columns
-                    arr[i][j][k] = a;
-                    a++;
-                }
-            }
-        }
+        // for (int i = 0; i < arr.length; i++) { // Iterates through layers
+        //     System.out.println("Layer " + i + ":");
+        //     for (int j = 0; j < arr[i].length; j++) { // Iterates through rows
+        //         for (int k = 0; k < arr[i][j].length; k++) { // Iterates through columns
+        //             arr[i][j][k] = a;
+        //             a++;
+        //         }
+        //     }
+        // }
         
-        for (int i = 0; i < arr.length; i++) { // Iterates through layers
-            System.out.println("Layer " + i + ":");
-            for (int j = 0; j < arr[i].length; j++) { // Iterates through rows
-                for (int k = 0; k < arr[i][j].length; k++) { // Iterates through columns
-                    System.out.print(arr[i][j][k] + " ");
-                }
-                System.out.println(); // New line after each row
-            }
-            System.out.println(); // Blank line between layers
-        }
+        // for (int i = 0; i < arr.length; i++) { // Iterates through layers
+        //     System.out.println("Layer " + i + ":");
+        //     for (int j = 0; j < arr[i].length; j++) { // Iterates through rows
+        //         for (int k = 0; k < arr[i][j].length; k++) { // Iterates through columns
+        //             System.out.print(arr[i][j][k] + " ");
+        //         }
+        //         System.out.println(); // New line after each row
+        //     }
+        //     System.out.println(); // Blank line between layers
+        // }
 
     }
 }
